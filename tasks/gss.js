@@ -1,5 +1,5 @@
 /*
- * grunt-gss
+ * grunt-gss-c
  * https://github.com/djerbic/grunt-gss
  *
  * Copyright (c) 2014 Davor Jerbic
