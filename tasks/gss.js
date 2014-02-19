@@ -16,7 +16,12 @@ module.exports = function(grunt) {
 
     var options = this.options({
       flags: [],
-      compilerPath: ''
+      compilerPath: '',
+      closureRenaming: {
+        rename: false,
+        excludeRenameClasses: [],
+        outputFile: 'cssMap.js'
+      }
     });
 
     var cmds = [];
